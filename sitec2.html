@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinária Brasileira</title>
+    <style>
+        /* CSS Reset */
+        body, h1, h2, h3, p, ul, li, img, a {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #264653;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        header {
+            background-color: #e76f51;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        header img {
+            height: 50px;
+            border-radius: 25px;
+        }
+        
+        header h1 {
+            margin-left: 1rem;
+        }
+        
+        nav ul {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        nav ul li {
+            padding: 0.5rem 1rem;
+            background-color: #264653;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        nav ul li:hover {
+            background-color: #2a9d8f;
+        }
+        
+        nav ul li a {
+            color: #fff;
+        }
+        
+        main {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex-grow: 1;
+        }
+        
+        footer {
+            background-color: #264653;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="display: flex; align-items: center;">
+            <img src="images/logo.jpg" alt="Logo">
+            <h1>Culinária Brasileira</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="feijoada.html" rel="internal">Feijoada</a></li>
+                <li><a href="acaraje.html" rel="internal">Acarajé</a></li>
+                <li><a href="brigadeiro.html" rel="internal">Brigadeiro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h2>Bem-vindo à Culinária Brasileira</h2>
+            </header>
+            <section>
+                <p>Descubra receitas deliciosas e autênticas da culinária brasileira!</p>
+                <p>Visite o <a href="https://pt.wikipedia.org/wiki/Culin%C3%A1ria_do_Brasil" target="_blank" rel="noopener noreferrer">Wikipedia para mais informações</a> sobre a culinária brasileira.</p>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>© 2024 Culinária Brasileira</p>
+    </footer>
+</body>
+</html>
